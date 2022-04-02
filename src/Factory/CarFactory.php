@@ -2,7 +2,7 @@
 
 namespace Factory;
 
-use Domain\CarAware;
+use Domain\Interfaces\CarAware;
 use Domain\Sedan;
 use Domain\Truck;
 
