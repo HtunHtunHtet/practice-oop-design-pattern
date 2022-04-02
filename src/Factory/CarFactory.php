@@ -2,6 +2,9 @@
 
 namespace Factory;
 
+use Domain\CarAware;
+use Domain\Sedan;
+use Domain\Truck;
 
 class CarFactory
 {

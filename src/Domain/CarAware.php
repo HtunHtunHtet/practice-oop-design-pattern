@@ -1,6 +1,6 @@
 <?php
 
-namespace Factory;
+namespace Domain;
 
 interface CarAware
 {

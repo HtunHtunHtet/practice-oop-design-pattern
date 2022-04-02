@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Factory;
+namespace Domain;
 
 abstract class AbstractCar
 {
-    private int $numbOfWheels;
+    private int $numOfWheels;
 
     private int $numOfDoors;
 
@@ -14,14 +14,14 @@ abstract class AbstractCar
 
     private string $transmission;
 
-    public function getNumbOfWheels(): int
+    public function getNumOfWheels(): int
     {
-        return $this->numbOfWheels;
+        return $this->numOfWheels;
     }
 
-    public function setNumbOfWheels(int $numbOfWheels): void
+    public function setNumOfWheels(int $numOfWheels): void
     {
-        $this->numbOfWheels = $numbOfWheels;
+        $this->numOfWheels = $numOfWheels;
     }
 
     public function getNumOfDoors(): int

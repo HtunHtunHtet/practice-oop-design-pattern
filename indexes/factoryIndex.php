@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
+use Domain\Sedan;
 use Factory\CarFactory;
-use Factory\Sedan;
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -12,7 +12,7 @@ $sedan = (new CarFactory())->makeCar('sedan');
 $sedan->setColor('white');
 $sedan->setNumOfDoors(4);
 $sedan->setTransmission('auto');
-$sedan->setNumbOfWheels(4);
+$sedan->setNumOfWheels(4);
 
 
 var_dump($sedan);
